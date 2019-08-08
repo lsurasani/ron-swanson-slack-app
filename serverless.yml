@@ -1,0 +1,10 @@
+service: exampleslackapp
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  region: us-east-2
+
+functions:
+  hello:
+    handler: handler.hello

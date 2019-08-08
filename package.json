@@ -1,0 +1,14 @@
+{
+  "name": "exampleslackapp",
+  "version": "1.0.0",
+  "description": "serverless slack app",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lekha surasani",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
