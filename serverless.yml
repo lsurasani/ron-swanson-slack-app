@@ -1,5 +1,9 @@
 service: exampleslackapp
 
+exclude:
+  - README.md
+  - package-lock.json
+
 provider:
   name: aws
   runtime: nodejs10.x
